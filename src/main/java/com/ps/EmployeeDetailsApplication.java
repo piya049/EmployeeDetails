@@ -23,12 +23,12 @@ public class EmployeeDetailsApplication {
 	}
 	@EventListener(ApplicationReadyEvent.class)
 	public void triggerMail() throws IOException, MessagingException {
-//		service.sendSimpleEmail("", 
-//				"Hi Pavani", 
-//				"Regarding Subject");
+//		service.sendSimpleEmail("hsdhsh@hotmail.com", 
+//				"Hi Pavan, this is body for normal email", 
+//				"Subject");
 		
 		
-		service.sendEmailWithAttachment("pshende@rythmos.com", 
+		service.sendEmailWithAttachment("shendepiyush049@gmail.com", 
 				"Hi Piyush, Hope you are doing good, this is email regarding the excel file generation...", "Regarding new API", 
 				"C:\\Piyush\\employees.xlsx");
 
